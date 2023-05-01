@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --bg-colorBody:  hsl(240, 9%, 89%); 
+  --bg-colorSecondary:hsl(0, 0%, 100%);
+  --bg-colorShadow: hsl(240, 6%, 21%);
+  --bg--colorFlorest: hsl(120, 100%, 50%);
+  --bg-colorRain: hsla(240, 17%, 79%, 0.836);
+  --bg-colorCoffe: hsl(211, 100%, 50%);
+  --bg-colorFire: hsl(0, 100%, 50%);
+}
+
+body {
+  background-color: var(--bg-colorBody);
+  color: var(--fc-colorTime);
+  
+  font-family: 'Roboto', sans-serif;
+
+  display: grid;
+  min-height: 100vh;
+}
+
+main {
+  display: grid;
+  
+  align-items: center;
+  justify-content: center;
+  justify-items: start;
+  margin: 0 auto;
+
+  background-color: var(--bg-colorSecondary);
+  box-shadow: 0 .4rem .4rem var(--bg-colorShadow);
+  border-radius: 5rem;
+
+  justify-self: center;
+  align-self: center;
+
+  width: clamp(40rem, 34rem + 42vw, 82rem);
+  height: clamp(20rem, 20rem + 25vh, 40rem);
+}
+
+.hide {
+  display: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#timer {
+  align-items: center;
+  justify-content: center;
+  font-size: 12.6rem;
+  display: flex;
+  text-shadow: 0 .4rem .4rem var(--bg-colorShadow);
+  color: var(--bg-colorShadow);
+  margin-top: 2rem;
+  
+  width: clamp(35rem, 5rem + 18vw, 90rem);
+  font-size: clamp(8rem, 11rem, 12.6rem);
+}
+
+#controls {
+  border-radius: 9999px;
+  position: relative;
+  display: flex;
+  gap: 3rem;
+  margin-left: 3rem;
+}
+
+#controls button:hover {
+  opacity: 0.6;
+  transition: 400ms;
+}
+
+#cards {
+  display: grid;
+  grid-template-columns: 0fr 0fr;
+  gap: 2.5rem;
+  margin-left: 20rem;
+  margin-top: -30rem;
+
+  width: clamp(40rem, 46rem, 90rem);
+  justify-content: end;
+}
+
+#cards button {
+  width: 13rem;
+  height: 15rem;
+  border-radius: 3rem;
+  background-color: var(--bg-colorBody);
+  box-shadow: .4rem .4rem .4rem var(--bg-colorShadow);
+}
+
+#cards button:hover {
+  opacity: 0.6;
+  transition: 300ms;
+}
+
+#cards .florest:focus {
+  top: 2px;
+  left: 1px;
+  box-shadow: none;
+  background-color: var(--bg--colorFlorest);
+  box-shadow: inset 0px 0px 5px rgba(100, 27, 27, 0.5);
+}
+#cards .rain:focus {
+  top: 2px;
+  left: 1px;
+  box-shadow: none;
+  background-color: var(--bg-colorRain);
+  box-shadow: inset 0px 0px 5px rgba(100, 27, 27, 0.5);
+}
+#cards .coffe:focus {
+  top: 2px;
+  left: 1px;
+  box-shadow: none;
+  background-color: var(--bg-colorCoffe);
+  box-shadow: inset 0px 0px 5px rgba(100, 27, 27, 0.5);
+}
+#cards .fire:focus {
+  top: 2px;
+  left: 1px;
+  box-shadow: none;
+  background-color: var(--bg-colorFire);
+  box-shadow: inset 0px 0px 5px rgba(100, 27, 27, 0.5);
+}
+
+
+@media (max-width: 800px) {
+  main {
+    width: clamp(40rem, 30rem + 30vw, 80rem);
+    height: clamp(40rem, 30rem + 30vh, 80rem);
+  }
+
+  #timer {
+    width: clamp(30rem, 53rem + 30vh, 80rem);
+    height: clamp(10rem, 5rem + 10vh, 80rem);
+    font-size: clamp(8rem, 11rem, 12.6rem);
+    align-self: center;
+    margin: 0 auto;
+  }
+
+  #controls {
+    align-self: baseline;
+    gap: 6rem;
+    margin: 0 auto;
+  }
+
+  #cards {
+    width: clamp(40rem, 30rem + 25vw, 90rem);
+    display: flex;
+    gap: 1rem;
+    align-self: baseline;
+    margin: 0 auto;
+  }
+
+}
