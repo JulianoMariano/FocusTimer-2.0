@@ -1,7 +1,7 @@
-<h1 align="center"> Calculadora de IMC - Índice de massa corporal 🩺📊 </h1>
+<h1 align="center"> Cronometro - Focus Timer </h1>
 
 <p align="center">
-A calculadora de IMC é uma aplicação proposta pela RocketSeat no programa de formação FULLSTACK EXPLORER e desenvolvida por mim, Juliano Mariano. <br/>
+O Focus Timer 2.0 é uma aplicação proposta pela RocketSeat no programa de formação FULLSTACK EXPLORER e desenvolvida por mim, Juliano Mariano. <br/>
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@ A calculadora de IMC é uma aplicação proposta pela RocketSeat no programa de 
 <br>
 
 <p align="center">
-  <img alt="projeto " src="./assets/preview-imc.png" width="50%">
+  <img alt="cronometro" src="./assets/FocusTimer.png" width="50%">
 </p>
 
 ## 🚀 Tecnologias
@@ -28,15 +28,19 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-A calculadora de IMC é uma ferramenta útil e simples para ajudar as pessoas a monitorarem sua saúde e bem-estar. O IMC (Índice de Massa Corporal) é uma medida simples que usa o peso e a altura de uma pessoa para calcular seu nível de gordura corporal. Essa informação pode ser usada para avaliar o risco de doenças relacionadas ao peso, como diabetes, doenças cardíacas e hipertensão. Basta colocar seu peso e sua altura nos campos indicados que você irá obter imediatamente seu IMC. 
+Bem-vindo à nossa aplicação de cronômetro!
 
-Lembre-se sempre de que a sua saúde e bem-estar são preciosos e devem ser cuidados com carinho e atenção. Portanto, Cuide-se sempre!
+Com esta ferramenta, você pode facilmente medir o tempo de qualquer atividade que desejar. Basta pressionar o botão "Set" para escolher o tempo que deseja, o botão "Play" para começar a cronometrar o tempo e o botão "Pause" para interromper a contagem. Se quiser, pode reiniciar a contagem controlada pelo botão "Stop". Você pode escolher aumentar ou diminuir o tempo em 1 minuto, através dos botões "+" e "-". 
 
-- [Visite o projeto online](https://julianomariano.github.io/calculadora_IMC/)
+Além disso, temos quatro botões de música temática para ajudá-lo a criar uma atmosfera perfeita para sua atividade. Se você precisar se concentrar, pode selecionar uma melodia da floresta para relaxar e se concentrar. Se você estiver estudando ou trabalhando, a melodia da chuva pode ajudar a aumentar a sua produtividade. Se você está se preparando para uma reunião importante ou precisa de um ambiente mais animado, pode escolher a melodia da cafeteria para criar uma atmosfera animada e descontraída. E se você quiser relaxar depois de um dia agitado, pode escolher a melodia da lareira para criar um ambiente acolhedor e aconchegante.
+
+Experimente agora e aproveite de uma contagem precisa e fácil de usar do tempo!
+
+- [Visite o projeto online](https://julianomariano.github.io/FocusTimer-2.0/)
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/RYQrVcUWR1VBHfA6RgrjNF/IMC-(Copy)?node-id=6%3A4&t=mp4lj31i3Pp8KwwK-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/lJCn8jjNoYWT24t7AcEgoY/Stage-05---Focus-Timer-2.0-(Copy)?node-id=0-1&t=O7AigKSVF5uiqR65-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## 🌐 Contato
 
