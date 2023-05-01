@@ -1,12 +1,12 @@
 export default function() {
 
-  const buttonPressCardFlorest = new Audio ('https://github.com/JulianoMariano/FocusTimer-2.0/blob/main/assets/Florest.mp3')
+  const buttonPressCardFlorest = new Audio ("https://github.com/JulianoMariano/FocusTimer-2.0/blob/main/assets/Florest.mp3")
 
-  const buttonPressCardRain = new Audio ('https://github.com/JulianoMariano/FocusTimer-2.0/blob/main/assets/Rain.mp3')
+  const buttonPressCardRain = new Audio ("https://github.com/JulianoMariano/FocusTimer-2.0/blob/main/assets/Rain.mp3")
 
-  const buttonPressCardCoffe = new Audio ('https://github.com/JulianoMariano/FocusTimer-2.0/blob/main/assets/Coffe.mp3')
+  const buttonPressCardCoffe = new Audio ("https://github.com/JulianoMariano/FocusTimer-2.0/blob/main/assets/Coffe.mp3")
 
-  const buttonPressCardFire = new Audio ('https://github.com/JulianoMariano/FocusTimer-2.0/blob/main/assets/Fire1.wav')
+  const buttonPressCardFire = new Audio ("https://github.com/JulianoMariano/FocusTimer-2.0/blob/main/assets/Fire1.wav")
 alter
   const buttonPressAudio = new Audio("https://github.com/maykbrito/automatic-video-creator/blob/master/audios/button-press.wav?raw=true")
 
