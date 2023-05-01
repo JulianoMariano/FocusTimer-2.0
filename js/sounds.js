@@ -17,8 +17,6 @@ export default function() {
     buttonPressCardRain.pause()
     buttonPressCardCoffe.pause()
     buttonPressCardFire.pause()
-
-    buttonPressCardFlorest.classList.add('focus')
   }
   
   function buttonPressCardTwo() {
