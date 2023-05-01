@@ -6,7 +6,7 @@ export default function() {
 
   const buttonPressCardCoffe = new Audio ("../assets/Coffe.mp3")
 
-  const buttonPressCardFire = new Audio ("../assets/Fire1.wav")
+  const buttonPressCardFire = new Audio ('https://github.com/LucasSPaiva/focus-timer/blob/master/audio/fire.wav')
 
   const buttonPressAudio = new Audio("https://github.com/maykbrito/automatic-video-creator/blob/master/audios/button-press.wav?raw=true")
 
