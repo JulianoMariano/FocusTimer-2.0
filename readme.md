@@ -14,7 +14,7 @@ O Focus Timer 2.0 é uma aplicação proposta pela RocketSeat no programa de for
 <br>
 
 <p align="center">
-  <img alt="cronometro" src="./assets/FocusTimer.png" width="50%">
+  <img alt="cronometro" src="./assets/FocusTimer.png" width="80%">
 </p>
 
 ## 🚀 Tecnologias
