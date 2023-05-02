@@ -1,12 +1,12 @@
 export default function() {
 
-  const buttonPressCardFlorest = new Audio ("../../assets/Florest.mp3")
+  const buttonPressCardFlorest = new Audio ("../assets/Florest.mp3")
 
   const buttonPressCardRain = new Audio ("../assets/Rain.mp3")
 
   const buttonPressCardCoffe = new Audio ("../assets/Coffe.mp3")
 
-  const buttonPressCardFire = new Audio ("https://github.com/maykbrito/automatic-video-creator/blob/master/audios/button-press.wav?raw=true")
+  const buttonPressCardFire = new Audio ("../assets/Fire1.wav")
 
   const buttonPressAudio = new Audio("https://github.com/maykbrito/automatic-video-creator/blob/master/audios/button-press.wav?raw=true")
 
