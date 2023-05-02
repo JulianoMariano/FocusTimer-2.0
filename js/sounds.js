@@ -1,6 +1,6 @@
 export default function() {
 
-  const buttonPressCardFlorest = new Audio ("../assets/Florest.mp3")
+  const buttonPressCardFlorest = new Audio ("../../assets/Florest.mp3")
 
   const buttonPressCardRain = new Audio ("../assets/Rain.mp3")
 
