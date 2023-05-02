@@ -4,7 +4,7 @@ export default function() {
 
   const buttonPressCardRain = new Audio ("../assets/Rain.mp3")
 
-  const buttonPressCardCoffe = new Audio ("../assets/Coffe.mp3")
+  const buttonPressCardCoffe = new Audio ('https://github.com/JulianoMariano/FocusTimer-2.0/blob/main/sounds/Coffe.mp3')
 
   const buttonPressCardFire = new Audio ("../assets/Fire1.wav")
 
