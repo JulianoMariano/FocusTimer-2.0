@@ -86,7 +86,7 @@ button {
   grid-template-columns: 0fr 0fr;
   gap: 2.5rem;
   margin-left: 20rem;
-  margin-top: -30rem;
+  margin-top: -34rem;
 
   width: clamp(40rem, 46rem, 90rem);
   justify-content: end;
